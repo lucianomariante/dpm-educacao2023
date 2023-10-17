@@ -1,0 +1,42 @@
+[
+	{
+		"id" : "1",
+		"name" : "Tipos de Restaurantes 1",
+		"parent_id": "0"
+	},
+	{
+		"id" : "2",
+		"name" : "Tipos de Restaurantes 2",
+		"parent_id": "0"
+	},
+	{
+		"id" : "3",
+		"name" : "Tipos de Restaurantes 3",
+		"parent_id" : "0"
+	},
+	{
+		"id" : "4",
+		"name" : "Restaurante Bistro 1",
+		"parent_id" : "1"
+	},
+	{
+		"id" : "5",
+		"name" : "Restaurante Bistro 2",
+		"parent_id" : "1"
+	},
+	{
+		"id" : "6",
+		"name" : "Restaurante Bistro 3",
+		"parent_id" : "1"
+	},
+	{
+		"id" : "7",
+		"name" : "Restaurante Bistro 4",
+		"parent_id" : "2"
+	},
+	{
+		"id" : "8",
+		"name" : "Restaurante Bistro 5",
+		"parent_id" : "2"
+	}
+]

@@ -1,0 +1,42 @@
+[
+	{
+		"id": "1",
+		"name": "Hotéis Próximos à Sede da Borba, Pause & Perin - Advogados - Bairro Navegantes",
+		"parent_id": "0"
+	},
+	{
+		"id": "2",
+		"name": "Hotéis Localizados no Centro de Porto Alegre",
+		"parent_id": "0"
+	},
+	{
+		"id": "3",
+		"name": "Hotéis em Outras Localizações",
+		"parent_id": "0"
+	},
+	{
+		"id": "4",
+		"name": "Golden Hotel",
+		"parent_id": "1"
+	},
+	{
+		"id": "5",
+		"name": "Hotel Colossi",
+		"parent_id": "1"
+	},
+	{
+		"id": "6",
+		"name": "Hotel Porto Alegre",
+		"parent_id": "1"
+	},
+	{
+		"id": "7",
+		"name": "Hotel Wamosy",
+		"parent_id": "2"
+	},
+	{
+		"id": "8",
+		"name": "Ivo de Conto Hotel",
+		"parent_id": "1"
+	}
+]

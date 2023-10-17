@@ -1,0 +1,127 @@
+[
+	{
+		"id": "1",
+		"title" : "Golden Hotel",
+		"link_site": "https://www.goldehotel.com.br",
+		"street": "Av. Cairú nº 340 Bairro Navegantes – Porto Alegre – RS",
+		"src_localization": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6910.4313375702495!2d-51.202580622760976!3d-30.00196311139014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979ed7af539c5%3A0x3609d31929e4f230!2sAv.+Pernambuco%2C+1001+-+Navegantes%2C+Porto+Alegre+-+RS%2C+90240-004!5e0!3m2!1spt-BR!2sbr!4v1532108016335",
+		"description_services": ["A tarifa inclui café da manhã e estacionamento.", "Na recepção disponibilizamos os canais pay-per-view para campeonato brasileiro.", "Há uma sala para reuniões e que possibilita conexão à cabo da internet, sem custo adicional. Não possuímos elevador.", "Os apartamentos sem ar condicionado contam com ventilador de teto. Boa parte dos apartamentos contam com televisores LED de 29 polegadas, os que não possuem essas tem televisor de tubo tela flat de 21 polegadas.", "Aos clientes que necessitam sair antes das 06:30 horas oferecemos livre acesso à máquina de café e bebidas quentes (cortesia)."],
+		"fone_fax" : "(51) 3337-8448 - 3342-7738",
+		"email_reservas" : "reservas@hotelportoalegre.com.br",
+		"prices": [
+				{
+					"category_id" : "0",
+					"category_name" : "Apartamento STANDARD (COM ar condicionado)",
+					"individual": "109,00",
+					"duplo": "152,00"
+				},
+				{
+					"category_id" : "1",
+					"category_name" : "Apartamento STANDARD (SEM ar condicionado)",
+					"individual": "96,00",
+					"duplo": "134,00"
+				}
+			],
+		"parent_id": "4"
+	},
+	{
+		"id": "2",
+		"title" : "Hotel Colossi",
+		"link_site": "https://www.hotelcolossi.com.br",
+		"street": "R. Arabutã, 9 - Navegantes, Porto Alegre - RS, 90240-470",
+		"src_localization": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27641.184556621847!2d-51.218320324946326!3d-30.003904455834448!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197992b2577b6b%3A0x7f2866301fe1263f!2sGolden+Hotel!5e0!3m2!1spt-BR!2sbr!4v1540166472814",
+		"description_services": ["Colossi A tarifa inclui café da manhã e estacionamento.", "Na recepção disponibilizamos os canais pay-per-view para campeonato brasileiro.", "Há uma sala para reuniões e que possibilita conexão à cabo da internet, sem custo adicional. Não possuímos elevador.", "Os apartamentos sem ar condicionado contam com ventilador de teto. Boa parte dos apartamentos contam com televisores LED de 29 polegadas, os que não possuem essas tem televisor de tubo tela flat de 21 polegadas.", "Aos clientes que necessitam sair antes das 06:30 horas oferecemos livre acesso à máquina de café e bebidas quentes (cortesia).","churrascaria no sagão do hotel com um peueno desconto."],
+		"fone_fax" : "(51) 7777-7777 - 3342-7738",
+		"email_reservas" : "reservas@hotelcolossi.com.br",
+		"prices": [
+				{
+					"category_id" : "0",
+					"category_name" : "Apartamento STANDARD (COM ar condicionado)",
+					"individual": "50,00",
+					"duplo": "60,00"
+				},
+				{
+					"category_id" : "1",
+					"category_name" : "Apartamento STANDARD (SEM ar condicionado)",
+					"individual": "70,00",
+					"duplo": "80,00"
+				}
+			],
+		"parent_id": "5"
+	},
+	{
+		"id": "3",
+		"title" : "Ivo de Conto Hotel",
+		"link_site": "https://www.ivocontehotel.com.br",
+		"street": "Av. Cairú nº 340 Bairro Navegantes – Porto Alegre – RS",
+		"src_localization": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6910.4313375702495!2d-51.202580622760976!3d-30.00196311139014!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979ed7af539c5%3A0x3609d31929e4f230!2sAv.+Pernambuco%2C+1001+-+Navegantes%2C+Porto+Alegre+-+RS%2C+90240-004!5e0!3m2!1spt-BR!2sbr!4v1532108016335",
+		"description_services": ["A tarifa inclui café da manhã e estacionamento.", "Na recepção disponibilizamos os canais pay-per-view para campeonato brasileiro.", "Há uma sala para reuniões e que possibilita conexão à cabo da internet, sem custo adicional. Não possuímos elevador.", "Os apartamentos sem ar condicionado contam com ventilador de teto. Boa parte dos apartamentos contam com televisores LED de 29 polegadas, os que não possuem essas tem televisor de tubo tela flat de 21 polegadas.", "Aos clientes que necessitam sair antes das 06:30 horas oferecemos livre acesso à máquina de café e bebidas quentes (cortesia)."],
+		"fone_fax" : "(51) 9999-8888 - 3342-7738",
+		"email_reservas" : "reservas@hotelivoconto.com.br",
+		"prices": [
+				{
+					"category_id" : "0",
+					"category_name" : "Apartamento STANDARD (COM ar condicionado)",
+					"individual": "100,00",
+					"duplo": "80,00"
+				},
+				{
+					"category_id" : "1",
+					"category_name" : "Apartamento STANDARD (SEM ar condicionado)",
+					"individual": "110,00",
+					"duplo": "87,00"
+				}
+			],
+		"parent_id": "8"
+	},
+	{
+		"id": "4",
+		"title" : "Hotel Porto Alegre",
+		"link_site": "https://www.hotelportoalegre.com.br",
+		"street": "Av. Cairú, 340 - Navegantes, Porto Alegre - RS, 90230-030",
+		"src_localization": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.171082199221!2d-51.20571714935374!3d-30.003243581808565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x951979927a8e32e3%3A0x2dac7c37c2aa2533!2sHotel+Porto+Alegre!5e0!3m2!1spt-BR!2sbr!4v1540195961371",
+		"description_services": ["A tarifa inclui café da manhã e estacionamento.", "Na recepção disponibilizamos os canais pay-per-view para campeonato brasileiro.", "Há uma sala para reuniões e que possibilita conexão à cabo da internet, sem custo adicional. Não possuímos elevador.", "Os apartamentos sem ar condicionado contam com ventilador de teto. Boa parte dos apartamentos contam com televisores LED de 29 polegadas, os que não possuem essas tem televisor de tubo tela flat de 21 polegadas.", "Aos clientes que necessitam sair antes das 06:30 horas oferecemos livre acesso à máquina de café e bebidas quentes (cortesia)."],
+		"fone_fax" : "(51) 3337-8448",
+		"email_reservas" : "contato@hotelportoalegre.com.br",
+		"prices": [
+				{
+					"category_id" : "0",
+					"category_name" : "Apartamento STANDARD (COM ar condicionado)",
+					"individual": "100,00",
+					"duplo": "80,00"
+				},
+				{
+					"category_id" : "1",
+					"category_name" : "Apartamento STANDARD (SEM ar condicionado)",
+					"individual": "110,00",
+					"duplo": "87,00"
+				}
+			],
+		"parent_id": "6"
+	},
+	{
+		"id": "5",
+		"title" : "Hotel Wamosy",
+		"link_site": "https://www.hoteiswamosy.com.br",
+		"street": "Av. Cairú, 393 - Navegantes, Porto Alegre - RS, 90230-061",
+		"src_localization": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3455.152466663608!2d-51.20536524935374!3d-30.003778181808283!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9519799263cebe47%3A0x2d854e5c98b6c44f!2sHoteis+Wamosy!5e0!3m2!1spt-BR!2sbr!4v1540196854530",
+		"description_services": ["A tarifa inclui café da manhã e estacionamento.", "Na recepção disponibilizamos os canais pay-per-view para campeonato brasileiro.", "Há uma sala para reuniões e que possibilita conexão à cabo da internet, sem custo adicional. Não possuímos elevador.", "Os apartamentos sem ar condicionado contam com ventilador de teto. Boa parte dos apartamentos contam com televisores LED de 29 polegadas, os que não possuem essas tem televisor de tubo tela flat de 21 polegadas.", "Aos clientes que necessitam sair antes das 06:30 horas oferecemos livre acesso à máquina de café e bebidas quentes (cortesia)."],
+		"fone_fax" : " (051) 3342-0689 - (51) 3342-7075 - 3342-0275",
+		"email_reservas" : "reservas@hoteiswamosy.com.br",
+		"prices": [
+				{
+					"category_id" : "0",
+					"category_name" : "Apartamento STANDARD (COM ar condicionado)",
+					"individual": "100,00",
+					"duplo": "80,00"
+				},
+				{
+					"category_id" : "1",
+					"category_name" : "Apartamento STANDARD (SEM ar condicionado)",
+					"individual": "110,00",
+					"duplo": "87,00"
+				}
+			],
+		"parent_id": "7"
+	}
+]

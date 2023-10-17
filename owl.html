@@ -1,0 +1,105 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+
+<link rel="stylesheet" href="css/fontawesome.min.css">
+<link rel="stylesheet" href="css/fontawesome-all.min.css">
+    
+<link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
+<link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css">
+    
+<style>
+.owl-prev {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    margin-left: -20px;
+    display: block !important;
+    border:0px solid black;
+}
+
+.owl-next {
+    width: 15px;
+    height: 100px;
+    position: absolute;
+    top: 40%;
+    right: -25px;
+    display: block !important;
+    border:0px solid black;
+}
+.owl-prev i, .owl-next i {transform : scale(1,6); color: #ccc;}    
+</style>
+    
+</head>
+
+<body>
+   <!-- ABRE NOTICIAS -->
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 pb-0 mb-0">
+                        <div class="row">
+                            <div class="center-div">
+                              <span class="roboto-bold text-lead-header text-uppercase">notícias</span>
+                            </div>
+                        </div>
+                        
+                        <div class="owl-carousel">
+
+                        <div class="row pt-1" style="border-bottom: 1px solid #d9d9d9; padding-bottom: 2rem !important;">
+                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-0"><img src="imgs/noticia-02.jpg" width="100%" alt=""/></div>
+                            
+                              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pt-0 text-justify">
+                                  <div class="text-sub-title-20 roboto-bold text-blue-theme pb-2 xs-pt-20 xxs-pt-20"  style="line-height: 22px">DPM Educação realiza palestra no III Seminário de Gestão de RPPS, do IPRESG</div>
+
+                                  <div class="text-sub-title-15 pb-3 roboto-regular" style="line-height: 18px">      
+                                  No último dia 30 de outubro, no Município de São Gabriel/RS, realizou-se o <span class="roboto-bold">III Seminário de Gestão do RPPS</span>, iniciativa do Instituto de Previdência dos Servidores Públicos Municipais de São Gabriel - IPRESG.
+                                  </div>
+
+                                  <a href="noticias.php" class="btn-primary text-sub-title-13" style="margin-top: 10px; padding: 5px; border-radius: 5px; text-decoration: none">Leia a íntegra</a>      
+                              </div>
+                        </div>
+                            
+                            
+                        <div class="row pt-1" style="border-bottom: 1px solid #d9d9d9; padding-bottom: 2rem !important;">
+                              <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 p-0"><img src="imgs/noticia-01.jpg" width="100%" alt=""/></div>
+                            
+                              <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pt-0 text-justify">
+                                  <div class="text-sub-title-20 roboto-bold text-blue-theme pb-2 xs-pt-20 xxs-pt-20"  style="line-height: 22px">A DPM Educação realiza palestra aos servidores municipais de Alegrete/RS</div>
+
+                                  <div class="text-sub-title-15 pb-3 roboto-regular" style="line-height: 18px">      
+                                  Na última sexta-feira (dia 25/10/2019) o Diretor Técnico da DPM Educação, Profº. Júlio César Fucilini Pause, esteve presente no Município de Alegrete/RS proferindo palestra aos servidores municipais com o tema “A Nova Previdência Pública”.
+                                  </div>
+
+                                  <a href="noticias.php" class="btn-primary text-sub-title-13" style="margin-top: 10px; padding: 5px; border-radius: 5px; text-decoration: none">Leia a íntegra</a>      
+                              </div>
+                        </div>
+                            
+                            
+                        </div>
+                       
+  
+                    </div>
+                    <!-- FECHA NOTICIAS -->
+</body>
+    
+    <script src="jquery.min.js"></script>
+    <script src="owlcarousel/owl.carousel.min.js"></script>
+    
+<script>    
+
+$(document).ready(function(){
+  $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:50,
+    nav:true,
+    autoWidth:false,
+    items:4,
+    navText : ['<i class="fa fa-angle-left" aria-hidden="true"></i>','<i class="fa fa-angle-right" aria-hidden="true"></i>']
+})
+});    
+
+    
+</script>    
+
+</html>

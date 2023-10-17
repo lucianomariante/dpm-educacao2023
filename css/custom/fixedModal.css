@@ -1,0 +1,205 @@
+.fixed-right.right-active {
+    z-index: 9999;
+    position: fixed;
+    display: flex;
+    right: 0;
+    top: 30%;
+ 
+    /* transition-timing-function: ease; */
+    /* transition: 3s linear 1s; */
+}
+
+.fixed-right-modal {
+    display: none;
+    border-bottom-left-radius: 15px;
+    transition-duration: 0.3s;
+}
+
+.fixed-right-click-area {
+    z-index: 9999;
+    width: 85px;
+    height: 84px;
+    position: fixed;
+    right: 0;
+    top: 30%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-image: url("../../img/botao-lateral-cursos-vertical.svg");
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+}
+
+.fixed-right-click-area p {
+    transform: rotate(270deg);
+    width: 210px;
+    font-size: 20px;
+    margin-left: -80px;
+    margin-top: 90px;
+    color: #1b75bb;
+}
+
+.fixed-right-modal.right-active {
+    height: 80vh;
+    width: 18vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #efefef;
+    /* transition-duration: 3s; */
+    /* transition-timing-function: linear; */
+    /* transition: all 3s linear; */
+    overflow: auto;
+    -webkit-transition: width 4s linear;
+    -moz-transition: width 4s linear;
+    -ms-transition: width 4s linear;
+    -o-transition: width 4s linear;
+    transition: width 4s linear;
+}
+
+.fixed-right-click-area.right-active {
+    position: initial;
+    transform: initial;
+    top: initial;
+    left: initial;
+    /* margin-right: -6px;*/
+    /* transition-duration: 1.5s;
+    transition-timing-function: ease-in-out; */
+}
+
+.fixed-right-modal-item {
+    padding: 0 20px;
+    margin: 15px 0;
+    display: flex;
+}
+
+.fixed-right-modal-item:first-child {
+    margin-top: 20px;
+}
+.fixed-right-modal-item:last-child {
+    margin-bottom: 20px;
+}
+
+.fixed-right-modal-title {
+    font-size: 16px;
+    display: inline-block;
+}
+
+
+.fixed-right-course-creator {
+
+    color: #353535;
+    font-weight: 400;
+}
+
+.fixed-right-modal-item .text-live-course {
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #245a85;
+    padding: 4px 6px;
+    border-radius: 5px;
+    /* margin: 0 0 10px 0 !important; */
+}
+
+.fixed-right-modal-item .curso-presencial {
+    font-size: 12px;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    background-color: #245a85;
+    padding: 4px 6px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.fixed-right-modal-item .curso-ead {
+    font-size: 12px;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    background-color: #7ea7c7;
+    padding: 4px 6px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+.fixed-right-modal-calendar {
+    font-size: 16px;
+}
+
+.text-live-course h4 {
+    line-height: 12px !important;
+}
+
+.fixed-right-modal-calendar,
+.fixed-right-modal-data i {
+    color: #1b75bb;
+}
+
+.fixed-right-modal-data {
+    font-size: 10px;
+    margin-bottom: 1px;
+}
+
+.fixed-right-modal-btn {
+    height: 7%;
+    width: 80%;
+    display: block;
+    margin: 10px auto 0 auto;
+}
+
+.fixed-right-modal-btn a {
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px 15px;
+    font-weight: 600;
+    font-size: 13px;
+    border-radius: 4px;
+    margin: 0 -10px;}
+
+.fixed-right-modal-btn a:hover {
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+
+.cursos-lateral a {
+    color: #353535;
+    text-decoration: none;
+    
+}
+
+.cursos-lateral a:hover {
+    color: #1B75BB !important;
+    text-decoration: underline !important;
+    
+}
+
+@media (max-width: 1440px) {
+    .fixed-right-modal-title {
+        font-size: 14px;
+        display: inline-block;
+    }
+
+    .fixed-right-modal-item:first-child {
+        margin-top: 10px;
+    }
+
+    .fixed-right-modal-item {
+        margin: 15px 0;
+    }
+
+    .fixed-right-modal-btn {
+        margin-top: 25px;
+    }
+
+    .fixed-right-modal-btn a {
+        font-size: 11px;
+    }
+}
+
+/* MOBILE */
+@media (max-width: 1024px) {
+    .fixed-right-click-area {
+        display: none;
+    }
+}
